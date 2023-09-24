@@ -47,7 +47,7 @@ nav{
 }
 
 #box > div:nth-child(1){
-    padding-top: 60px;
+    padding-top: 110px;
 }
 
 #box > div > form{
@@ -61,7 +61,7 @@ nav{
 }
 
 
-@media screen and (max-width: 834px){
+@media only screen and (max-width: 834px){
     #box{
         flex-direction: column;
         margin: 50px 200px 0px;
@@ -69,7 +69,7 @@ nav{
         
         width: 400px;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 30px;
         
     }
     
@@ -83,7 +83,7 @@ nav{
     }
 }
 
-@media screen and (max-width: 500px){
+@media only screen and (max-width: 500px){
     body{
         background-image: none;
     }
