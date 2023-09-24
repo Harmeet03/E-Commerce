@@ -47,12 +47,22 @@ gap: 40px;
     grid-template-columns: repeat(2, 1fr);
 }
 
+body > h1{
+    text-align: center;
+    font-family: arial;
+}
+
 body > div > div{
     padding: 10px; 
+    font-family: arial;
 }
 
 #total{
     justify-content: left;
+}
+
+#carts > div > p:nth-child(1){
+    font-weight: bold;
 }
 
 #button{

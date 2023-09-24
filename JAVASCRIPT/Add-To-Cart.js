@@ -1,3 +1,4 @@
+
 function atc(){
     // ITEM 1
     let name = document.querySelector("#item-1 p b");
@@ -11,7 +12,7 @@ function atc2(){
     // ITEM 2
     let name = document.querySelector("#item-2 p b");
     localStorage.setItem("Name2", name.innerText);
-    
+
     let price = document.querySelector("#item-2 #price");
     localStorage.setItem("Price2", price.innerText);
 }
