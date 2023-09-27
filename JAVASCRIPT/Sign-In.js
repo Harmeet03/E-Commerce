@@ -1,6 +1,6 @@
 function SignIn(){
     if(localStorage.getItem("Username") !== null){
-        window.open('/Full Stack Development/PROJECT/FrontPage.html', "_self");
+        window.open('/Full Stack Development/PROJECT/index.html', "_self");
     }
     else{
         let p = document.getElementById("error");
