@@ -2,7 +2,8 @@
 <head>
     <title> Sign-In - E-Bazaar </title>
     <link rel="icon" href="https://www.360webdesigns.com/wp-content/uploads/2016/07/Services_ECommerce_v2-01.png" type="image/icon type">
-    <link rel="stylesheet" href="../CSS/Sign-In.css">
+    <link rel="stylesheet" href="../PROJECT/CSS/Sign-In.css">
+    <script src="../PROJECT/JAVASCRIPT/Sign-In.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
@@ -23,11 +24,12 @@
             </h1>
         </div>
         <div>
-            <form action="">
+            <form id="form" action="">
                 <input type="text" required placeholder="Username" id="username">
                 <input type="password" required placeholder="Password" id="pass">
-                <button type="button">Sign In</button>
-                <p> Don't have an account? <a href="../HTML/Sign-Up.html"> Create one. </a> </p>
+                <button type="button" onclick="SignIn()">Sign In</button>
+                <p> Don't have an account? <a href="../PROJECT/HTML/Sign-Up.html"> Create one. </a> </p>
+                <p style="display: none;" id="error"></p>
             </form>
         </div>
     </div>

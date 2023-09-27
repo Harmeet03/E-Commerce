@@ -3,6 +3,7 @@
     <title> Sign Up - E-Bazaar </title>
     <link rel="icon" href="https://www.360webdesigns.com/wp-content/uploads/2016/07/Services_ECommerce_v2-01.png" type="image/icon type">
     <link rel="stylesheet" href="../CSS/Sign-Up.css">
+    <script src="../JAVASCRIPT/Sign-Up.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
@@ -28,8 +29,9 @@
                 <input type="text" required placeholder="Create Username" id="username">
                 <input type="text" required placeholder="Enter Email" id="email">
                 <input type="password" required placeholder="Create Password" id="pass">
-                <button type="button">Sign Up</button>
-                <p> Already have an account? <a href="../HTML/Sign-In.html"> Sign In. </a> </p>
+                <button type="button" onclick="SignUp()">Sign Up</button>
+                <p> Already have an account? <a href="../Sign-In.html"> Sign In. </a> </p>
+                <p style="display: none;" id="p"></p>
             </form>
         </div>
     </div>
