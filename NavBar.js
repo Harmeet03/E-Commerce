@@ -22,5 +22,3 @@ function toggle(){
         x.style.display = "flex";
     }
 }
-
-
