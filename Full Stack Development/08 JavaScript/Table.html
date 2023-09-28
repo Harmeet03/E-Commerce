@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title> </title>
+</head>
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin: auto;
+        border: 1px solid black;
+        padding: 40px;
+        border-radius: 10px;
+        gap: 40px;
+    }
+
+    form > input, form > button{
+        padding: 10px;
+    }
+
+    table{
+        width: 800px;
+        margin: auto;
+        margin-top: 50px;
+    }
+</style>
+<body> 
+    <form id="forms">
+        <input type="text" name="Name" placeholder="Name" id="name" required>
+        <input type="text" name="Email" placeholder="Email" id="email" required>
+        <input type="password" name="Password" placeholder="Password" id="pass" required maxlength="15">
+        <input type="number" name="Age" placeholder="Age" id="age" required>
+        <button type="submit" id="submit" onclick="showData()" name="Submit">Submit</button>
+    </form>
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Age</th>
+        </thead>
+        
+        <tbody>
+        </tbody>
+        
+    </table>
+    <script src="Table.js"></script>
+</body>
+</html>

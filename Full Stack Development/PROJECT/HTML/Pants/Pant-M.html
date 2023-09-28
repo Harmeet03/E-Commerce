@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head>
+    <title> Pants for Male - E-Bazaar </title>
+    <link rel="icon" href="https://www.360webdesigns.com/wp-content/uploads/2016/07/Services_ECommerce_v2-01.png" type="image/icon type">
+    <link rel="stylesheet" href="/Full Stack Development/PROJECT/CSS/Shirt-F.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<script src="/Full Stack Development/PROJECT/JAVASCRIPT/Buy-Now.js"></script>
+<script src="/Full Stack Development/PROJECT/JAVASCRIPT/Add-To-Cart.js"></script>
+
+<nav>
+    <div id="logo">
+        <label>
+            <img src="https://www.360webdesigns.com/wp-content/uploads/2016/07/Services_ECommerce_v2-01.png">
+            <b> E-Bazaar </b>
+        </label>
+    </div>
+    <div id="lists">
+        <div>
+            <b><a href="/Full Stack Development/PROJECT/index.html">Home</a></b>
+        </div>
+        <div>
+            <b><a href="/Full Stack Development/PROJECT/HTML/Cart.html">Cart</a></b>
+        </div>
+        <div>
+            <b><a href="/Full Stack Development/PROJECT/Sign-In.html">Sign In</a></b>
+        </div>
+    </div>
+    <div id="nav-icon">
+        <a href="javascript:void(0);" class="toggle-button" onclick="toggle()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </div>
+</nav>
+
+<body> 
+    <div id="content">
+        <div id="item-1">
+            <img src="https://m.media-amazon.com/images/I/716sdEm10ML._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> The Pant Project </b></p>
+            <p id="price"> ₹1,851 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc()"> Add To Cart </button>
+        </div>
+
+        <div id="item-2">
+            <img src="https://m.media-amazon.com/images/I/61V9z07qnHL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Urbano Fashion </b></p>
+            <p id="price"> ₹649 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc2()"> Add To Cart </button>
+        </div>
+
+        <div id="item-3">
+            <img src="https://m.media-amazon.com/images/I/61EJxytnV5L._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Urbano Fashion </b></p>
+            <p id="price"> ₹568 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc3()"> Add To Cart </button>
+        </div>
+        <div id="item-4">
+            <img src="https://m.media-amazon.com/images/I/718BysRI-NL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Symbol </b></p>
+            <p id="price"> ₹754 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc4()"> Add To Cart </button>
+        </div>
+
+        <div id="item-5">
+            <img src="https://m.media-amazon.com/images/I/51DtgLzSYLL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Boostrix </b></p>
+            <p id="price"> ₹399 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery over ₹499 </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc5()"> Add To Cart </button>
+        </div>
+
+        <div id="item-6">
+            <img src="https://m.media-amazon.com/images/I/71r3RWbLWAL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> JUGULAR </b></p>
+            <p id="price"> ₹469 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery over ₹499 </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc6()"> Add To Cart </button>
+        </div>
+
+        <div id="item-7">
+            <img src="https://m.media-amazon.com/images/I/61jgOJ2QLmL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Urbano Fashion </b></p>
+            <p id="price"> ₹649 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc7()"> Add To Cart </button>
+        </div>
+
+        <div id="item-8">
+            <img src="https://m.media-amazon.com/images/I/61xPuLuFwPL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Jack and Jini </b></p>
+            <p id="price"> ₹999 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc8()"> Add To Cart </button>
+        </div>
+
+        <div id="item-9">
+            <img src="https://m.media-amazon.com/images/I/61YHtYYabpL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Symbol </b></p>
+            <p id="price"> ₹749 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc9()"> Add To Cart </button>
+        </div>
+
+        <div id="item-10">
+            <img src="https://m.media-amazon.com/images/I/61rq6p87TlL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Jump Cuts </b></p>
+            <p id="price"> ₹499 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery over ₹499 </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc10()"> Add To Cart </button>
+        </div>
+
+        <div id="item-11">
+            <img src="https://m.media-amazon.com/images/I/51f4+H+KemL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Van Heusen </b></p>
+            <p id="price"> ₹1,559 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc11()"> Add To Cart </button>
+        </div>
+
+        <div id="item-12">
+            <img src="https://m.media-amazon.com/images/I/51BXlVsRPaL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Van Heusen </b></p>
+            <p id="price"> ₹1,372 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc12()"> Add To Cart </button>
+        </div>
+
+        <div id="item-13">
+            <img src="https://m.media-amazon.com/images/I/61qOfGb2-YL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Park Avenue </b></p>
+            <p id="price"> ₹1,704 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc13()"> Add To Cart </button>
+        </div>
+
+        <div id="item-14">
+            <img src="https://m.media-amazon.com/images/I/61cgpCE7mML._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> MALENO </b></p>
+            <p id="price"> ₹499 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery over ₹499 </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc14()"> Add To Cart </button>
+        </div>
+
+        <div id="item-15">
+            <img src="https://m.media-amazon.com/images/I/41xLvBm35sL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> JUGULAR </b></p>
+            <p id="price"> ₹700 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc15()"> Add To Cart </button>
+        </div>
+
+        <div id="item-16">
+            <img src="https://m.media-amazon.com/images/I/51HQeeg4-sL._AC_UL480_FMwebp_QL65_.jpg">
+            <p><b> Allen Solly </b></p>
+            <p id="price"> ₹1,264 </p>
+            Size: 
+            <select name="Size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select><br><br>
+            Colors: 
+            <select>
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Brown</option>
+            </select>
+            <p> <b>FREE</b> Delivery. </p>
+            <button onclick="load()"> Buy Now </button><br><br>
+            <button onclick="atc16()"> Add To Cart </button>
+        </div>
+    </div>    
+</body>
+
+<footer>
+    <div id="name">
+        <img src="https://www.360webdesigns.com/wp-content/uploads/2016/07/Services_ECommerce_v2-01.png">
+        <b> E-Bazaar </b>
+    </div>
+    <div id="links">
+        <div>
+            <a href="#"> About Us </a>
+        </div>
+        <div>
+            <a href="#"> Terms & Condition </a>
+        </div>
+        <div>
+            <a href="../Cart.html"> Cart </a>
+        </div>
+    </div>
+</footer>
+<script src="/Full Stack Development/PROJECT/NavBar.js"></script>
+</html>

@@ -1,0 +1,71 @@
+/* calculator */
+
+body{
+    margin: 80px;
+}
+
+.box{
+    box-shadow: 5px 5px 20px black;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 40px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.content > div{
+    box-shadow: 2px 2px 5px black;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.content > .screen{
+    height: 50px;
+    grid-area: 1/1/1/5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.content > .bc{
+    background-color: red;
+    color: white;
+}
+
+.content > .bp, .b-, .bm, .be, .bs{
+    background-color: black;
+    color: white;
+}
+
+.content > div:hover{
+    background-color: blue;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+
+    body{
+        margin: 0;
+    }
+
+    .box{
+        border: none;
+        box-shadow: none;
+        width: 1000px;
+        margin: auto;
+    }
+
+    .content{
+        padding: 50px;
+        gap: 40px;
+        height: 600px;
+    }    
+}

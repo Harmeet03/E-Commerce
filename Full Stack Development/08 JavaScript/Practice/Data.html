@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <title> </title>
+    
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #F5D7DB;
+    }
+
+    nav{
+        background-color: #1B3358;
+        padding: 20px;
+    }
+    
+    nav > div{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav > div > div > a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: arial;
+    }
+    
+    #boxes{
+        font-family: arial;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    #boxes > div{
+        text-align: center;
+        border: 1px black solid;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    img{
+        width: 400px;
+        height: 400px;
+    }
+</style>
+<body> 
+
+    <nav>
+        <div>
+            <div>
+                <a href="Data.html">Home</a>
+            </div>
+            <div>
+                <a href="Cart.html">Cart</a>
+            </div>
+            <div>
+                <a href="Profile.html">Profile</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="boxes">
+        <div id="box1">
+            <img src="">
+            <p></p>
+            <button type="button" id="btn1" onclick="Button1()">Buy Now</button>
+        </div>
+        <div id="box2">
+            <img src="">
+            <p></p>
+            <button name="Buy" id="btn2">Buy Now</button>
+            
+        </div>
+        <div id="box3">
+            <img src="">
+            <p></p>
+            <button name="Buy" id="btn3">Buy Now</button>
+            
+        </div>
+    </div>   
+</body>
+<script type="module" src="Data.js"></script>
+
+</html>

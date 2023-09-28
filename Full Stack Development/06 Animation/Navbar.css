@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://assets-global.website-files.com/637f533d357967a5820f3f25/641b4a60692697b4e28910e8_deco_lines_home.svg);
+    background-color: grey;
+}
+
+nav{
+    border: black solid 1px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: arial;
+}
+
+nav>div{
+    padding: 20px;
+    width: 10%;
+    text-align: center;
+}
+
+#dropdown{
+    display: block;
+}
+
+#dropdown > div{
+    display: none;
+}
+
+#dropdown:hover #dropdown-content{
+    display: block;
+}
+
+#content{
+    border: white 1px solid;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    /* animation: slide 5s infinite alternate; */
+    /* animation: scale 5s infinite alternate; */
+    transition: transform 5s ease-in-out;
+}
+
+/* Animation */
+@keyframes slide {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(800px);
+    }
+}
+
+@keyframes scale{
+    0%, 100%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(4);
+    }
+}
+
+#content:hover{
+    transform: rotate(160deg);
+    transform: translate(50px, 30px);
+}

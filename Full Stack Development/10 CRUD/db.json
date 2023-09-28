@@ -1,0 +1,46 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "title": "Study",
+      "status": true,
+      "description": "JavaScript"
+    },
+    {
+      "id": 2,
+      "title": "Study",
+      "status": true,
+      "description": "React"
+    },
+    {
+      "title": "Game",
+      "status": false,
+      "discription": "Gaming",
+      "id": 3
+    },
+    {
+      "title": "Practice",
+      "status": false,
+      "discription": "JSON",
+      "id": 4
+    },
+    {
+      "title": "Database",
+      "status": false,
+      "discription": "JS",
+      "id": 5
+    },
+    {
+      "title": "Practice",
+      "status": false,
+      "discription": "JavaScript",
+      "id": 6
+    },
+    {
+      "title": "This",
+      "status": false,
+      "discription": "Is",
+      "id": 7
+    }
+  ]
+}

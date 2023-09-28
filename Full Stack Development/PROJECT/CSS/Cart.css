@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 215, 215);
+}
+
+nav{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 460px;
+    margin: auto;
+    padding: 10px;
+}
+
+#logo{
+    font-size: 30px;
+}
+
+#logo > label > img{
+    height: 40px;
+    width: 40px;
+}
+
+#lists{
+display: flex;
+font-size: 20px;
+justify-content: right;
+gap: 40px;
+}
+
+#lists > div > b > a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-icon{
+    display: none;
+}
+
+/* ---------------------- */
+
+#content{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+body > h1{
+    text-align: center;
+    font-family: arial;
+}
+
+body > div > div{
+    padding: 10px; 
+    font-family: arial;
+}
+
+#total{
+    justify-content: left;
+}
+
+#carts > div > p:nth-child(1){
+    font-weight: bold;
+}
+
+#button{
+    font-size: 16px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+@media screen and (max-width: 900px){
+    nav{
+        display: block;
+    }
+
+    #nav-icon{
+        display: flex;
+    }
+
+    .toggle-button{
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+        display: flex; /* This one*/
+        flex-direction: column; 
+        justify-content: space-between;
+        margin-right: 30px;
+        margin-top: 10px;
+        width: 30px;
+        height: 22px;
+    }
+    
+    .toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        border-radius: 10px;
+    }
+    
+    .toggle-button.active{
+        display: flex;
+    }
+
+    #lists{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,371 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR -------------------- */
+
+nav{
+    border: 1px black solid;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 460px;
+    margin: auto;
+    padding: 10px;
+}
+
+#logo{
+    font-size: 30px;
+}
+
+#logo > label > img{
+    height: 40px;
+    width: 40px;
+}
+
+#lists{
+    display: flex;
+    font-size: 20px;
+    justify-content: right;
+    gap: 40px;
+}
+
+#lists > div > b > a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav-icon{
+    display: none;
+}
+
+/* ---------------------------- */
+
+/* WELCOME SECTION ------------ */
+
+#welcome{
+    border: 1px black solid;
+    padding: 160px 0px 160px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: orangered;
+    background-color: rgb(22, 22, 85);
+    background-image: url("https://assets-global.website-files.com/637f533d357967a5820f3f25/641b4a60692697b4e28910e8_deco_lines_home.svg");
+    background-repeat: no-repeat;
+}
+
+#welcome > h1 > b{
+    color: yellow;
+}
+
+body > div:nth-child(3){
+    text-align: center;
+    border: 1px black solid;
+    padding: 40px;
+}
+
+/* ---------------------------- */
+
+/* SHIRTS --------------------- */
+
+body > div:nth-child(4) > a{
+    color: rgb(94, 255, 0); 
+    text-decoration: none;
+}
+
+body > div:nth-child(4){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://www.realmenrealstyle.com/wp-content/uploads/2019/04/dress-shirt-rack.jpg");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* PANTS ---------------------- */
+
+body > div:nth-child(5) > a{
+    color: orange;
+    text-decoration: none;
+}
+
+body > div:nth-child(5){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://png.pngtree.com/background/20230427/original/pngtree-group-of-men-s-trousers-in-different-colors-picture-image_2494327.jpg");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* JEANS ---------------------- */
+
+body > div:nth-child(6) > a{
+    color: red;
+    text-decoration: none;
+}
+
+body > div:nth-child(6){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://media.istockphoto.com/id/1413637822/photo/top-view-of-folded-jeans-blue-jeans-on-a-stack-of-jeans-top-view-of-various-denim-fabrics-on.webp?b=1&s=170667a&w=0&k=20&c=ONd7UAI0z30AfyEVvE_XdAfj6sFkj1eiGuVM148H2pA=");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* T-SHIRTS ------------------- */
+
+body > div:nth-child(7) > a{
+    color: yellow;
+    text-decoration: none;
+}
+
+body > div:nth-child(7){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://i.pinimg.com/1200x/8f/ee/bd/8feebd828397e733133c17acdd1246d7.jpg");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* OUTFIT --------------------- */
+
+body > div:nth-child(8) > a{
+    color: white;
+    text-decoration: none;
+}
+
+body > div:nth-child(8){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://previews.123rf.com/images/vukvuk/vukvuk1602/vukvuk160200152/52679562-men-casual-outfit-background-worn-blue-jeans-sneakers-and-plaid-shirt.jpg");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body > div:nth-child(9) > a{
+    color: white;
+    text-decoration: none;
+}
+
+body > div:nth-child(9){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://previews.123rf.com/images/stillab/stillab1709/stillab170900004/86050258-men-s-casual-clothes-outfits-with-jeans-leather-shoes-and-accessories-on-gray-background.jpg");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* JACKETS -------------------- */
+
+body > div:nth-child(10) > a{
+    color: cyan;
+    text-decoration: none;
+}
+
+body > div:nth-child(10){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://media.istockphoto.com/id/1134408245/photo/little-boys-child-size-jackets-coats-and-sweaters-hanging-in-a-kids-closet-with-colorful.jpg?s=612x612&w=0&k=20&c=_tDiqcDv1IZ_KyadbtlaBHgSc_q9yQAn7MmxRJ-MxHs=");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* FOOTWEARS ------------------ */
+
+body > div:nth-child(11) > a{
+    color: navy;
+    text-decoration: none;
+}
+
+body > div:nth-child(11){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://media.istockphoto.com/id/1279108197/photo/variety-of-womens-fashion-comfortable-shoes-of-all-seasons-on-a-light-background-top-view.webp?b=1&s=170667a&w=0&k=20&c=K4XGHnA8DrYHYDKYXLHoRJTiRbNK5Gx4955ADG24hzM=");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* ACCESSORIES ---------------- */
+
+body > div:nth-child(12) > a{
+    color: black;
+    text-decoration: none;
+}
+
+body > div:nth-child(12){
+    text-align: center;
+    border: 1px black solid;
+    padding: 200px;
+    background-image: url("https://img.freepik.com/premium-photo/men-s-casual-outfit-men-s-fashion-clothing-accessories-white-wooden-background_151851-433.jpg?w=2000");
+    font-size: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------- */
+
+/* FOOTER --------------------- */
+
+footer{
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    padding: 160px 0px 80px;
+}
+
+footer > #links{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+footer > #links > div > a{
+    color: black;
+    text-decoration: none;
+}
+
+#name > img{
+    height: 80px;
+    width: 80px;
+}
+
+#name > b{
+    font-size: 40px;
+}
+
+/* ---------------------------- */
+
+@media screen and (max-width: 1380px){
+    #nav-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    #nav-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    nav{
+        display: block;
+    }
+
+    #nav-icon{
+        display: flex;
+    }
+
+    .toggle-button{
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+        display: flex; /* This one*/
+        flex-direction: column; 
+        justify-content: space-between;
+        margin-right: 30px;
+        margin-top: 10px;
+        width: 30px;
+        height: 22px;
+    }
+    
+    .toggle-button .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        border-radius: 10px;
+    }
+    
+    .toggle-button.active{
+        display: flex;
+    }
+
+    #lists{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    body > div:nth-child(4){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(5){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(6){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(7){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(8){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(9){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(10){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(11){
+        padding: 200px 0px;
+    }
+    body > div:nth-child(12){
+        padding: 200px 0px;
+    }
+
+    #welcome{
+        font-size: 25px;
+    }
+    
+    body > div > a{
+        font-size: 25px;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    #welcome{
+        font-size: 20px;
+    }
+}

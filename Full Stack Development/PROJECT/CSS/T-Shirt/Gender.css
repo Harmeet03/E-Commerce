@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+#content > div:nth-child(1){
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 120px;
+    border-radius: 20px;
+    background-image: url("https://media.istockphoto.com/id/1306031106/vector/male-symbol-flag-pattern.jpg?s=612x612&w=0&k=20&c=THu1R08UYjobLKod32849YjUdA4gL4sLxjvO2GK_l00=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content > div:nth-child(2){
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 120px;
+    border-radius: 20px;
+    background-image: url("https://img.freepik.com/premium-vector/women-sex-symbol-icon-seamless-pattern-vector-background-girl-power-concept_117553-848.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
